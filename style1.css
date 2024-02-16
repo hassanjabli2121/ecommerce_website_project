@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Lobster", sans-serif;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.navbar{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+}
+.nav-link:hover{
+    color: black;
+    
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+    margin-right: -35px !important;
+    font-family: "Rubik", sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.main{
+    background: url("my-logo2.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    border-radius: 60px;
+    font-weight: 700;
+    color: white;
+}
+.btn1:hover{
+    background-color: rgb(160, 17, 60) ;
+    transition: 0.5s ease;
+}
+h1{
+    font-weight: 700;
+}
+.product{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+
+.star span i {
+    font-size: 20px;  
+}
+.star {
+    margin-top: -40px;
+}
+.product .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    border: 1px rgb(212, 206, 206) solid;
+    box-shadow: -1px 3px 11px -7px rgba(0,0,0,0.75);
+    border-radius: 10px;
+
+    
+
+
+}
+.product .card:hover{
+    box-shadow: -1px 3px 28px -7px rgba(0,0,0,0.75);
+    transition: 0.5s ease;
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+    font-size: 24px;
+}
+.per1{
+    font-size: 15px;
+    color: rgb(168, 162, 162);
+}
+.btnc{
+    height: 45px;
+    width: fit-content;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(248, 26, 92);
+    border-radius: 60px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+    font-size: 13px;
+    font-weight: 500;
+}
+.btnc:hover{
+    background-color: rgb(160, 17, 60) ;
+    transition: 0.5s ease;
+    outline: none;
+    border: 1px solid rgb(248, 26, 92) ;
+    background: transparent;
+    color: rgb(248, 26, 92);
+}
+.apple{
+    background: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url("handsomecopy.jpg");
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    
+}
+.apple h1{
+    font-family: "Lobster", sans-serif;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.news::placeholder{
+    color: white;
+}
+.btn2{
+    height: 43.7px;
+    width: 100px;
+    background: white;
+    margin-left: -50px;
+    border: 2px solid white;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.btn2:hover{
+    background-color: black;
+    transition: 0.5s ease;
+    color: white;
+}
+.news input{
+    height: 2.7rem;
+    width: 75%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight:600 ;
+    border-radius: 20px;
+}
+.news p{
+    margin: 0;
+}
+.mycard{
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mycard:hover{
+    box-shadow: -1px 3px 28px -7px rgba(0,0,0,0.75);
+    transition: 0.5s ease;
+}
+.news span {
+    cursor: pointer;
+    font-size: 2rem;
+    margin: auto;
+    padding: 8px;
+}
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .dark-mode-toggle i {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e6e6e6;
+    transition: background-color 0.5s;
+  }
+  
+  body.dark-mode .main {
+    background: url("my-logo2.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+  }
+  
+.btntop:hover{
+    background-color: white !important;
+    color: black !important;
+    border: 2px black solid !important;
+}
+.myproduct1{
+    border:1px solid rgb(215, 210, 210);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+
+}
+.myproduct1:hover{
+    box-shadow: -2px -2px 10px 0px rgba(0,0,0,0.2);
+    transition: 0.5s ease;
+    cursor: pointer;
+
+
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    transition: 0.5s ease;
+}
+.btn01{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    transition: 0.5s ease;
+}
+.btn01:hover{
+
+    background-color: transparent;
+    color: rgb(248, 26, 92);
+    border: 2px solid rgb(248, 26, 92);
+    
+
+    
+}
+
+
+
+
+
+
+
+
